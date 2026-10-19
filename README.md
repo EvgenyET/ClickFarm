@@ -1,10 +1,59 @@
-# ClickFarm
+# Автоматизация публикаций в Telegraph
+
+Рабочее название: `ClickFarm`.
 
 Набор связанных инструментов для работы со статьями: генерация текста через Gemini, подготовка ссылок, публикация и редактирование в Telegraph. Отдельное настольное приложение показывает общие и дневные просмотры, сохраняя историю в SQLite.
 
 **Python-портфолио Евгения Толмачева** · Python · PyQt5 · Gemini API · Telegraph API · SQLite · Selenium
 
-![Интерфейс ClickFarm](docs/preview.webp)
+<img src="docs/screenshots/1.jpg" alt="Скриншот 1" width="860">
+
+## Скриншоты
+
+<details>
+<summary>Автоматизация публикаций в Telegraph - 10 снимков</summary>
+
+### Скриншот 1
+
+<img src="docs/screenshots/1.jpg" alt="Скриншот 1" width="860">
+
+### Скриншот 2
+
+<img src="docs/screenshots/2.jpg" alt="Скриншот 2" width="860">
+
+### Скриншот 3
+
+<img src="docs/screenshots/3.jpg" alt="Скриншот 3" width="860">
+
+### Скриншот 4
+
+<img src="docs/screenshots/4.jpg" alt="Скриншот 4" width="860">
+
+### Скриншот 5
+
+<img src="docs/screenshots/5.jpg" alt="Скриншот 5" width="860">
+
+### Скриншот 6
+
+<img src="docs/screenshots/6.jpg" alt="Скриншот 6" width="860">
+
+### Скриншот 7
+
+<img src="docs/screenshots/7.jpg" alt="Скриншот 7" width="860">
+
+### Скриншот 8
+
+<img src="docs/screenshots/8.jpg" alt="Скриншот 8" width="860">
+
+### Скриншот 9
+
+<img src="docs/screenshots/9.jpg" alt="Скриншот 9" width="860">
+
+### Скриншот 10
+
+<img src="docs/screenshots/10.jpg" alt="Скриншот 10" width="860">
+
+</details>
 
 ## Возможности
 
@@ -49,6 +98,7 @@
 
 ## С чего начать просмотр кода
 
+
 Связь этапов видна в articles_generator.py и telegraph_poster_shortlinks_v2.py. В stats_viewer.py стоит посмотреть DataLoaderThread и сохранение дневной статистики.
 
 ## Подготовка и запуск
@@ -82,7 +132,8 @@ python stats_viewer.py
 ```text
 ClickFarm/
 ├── docs/
-│   └── preview.webp
+│   ├── preview.webp
+│   └── screenshots/  # скриншоты из портфолио
 ├── .env.example
 ├── .gitignore
 ├── articles_generator.py
@@ -103,6 +154,6 @@ ClickFarm/
 
 ## Состав репозитория
 
-Сохранены авторские исходники, их имена и структура, зависимости и компактный скриншот. Рабочие базы, наборы данных, модели и виртуальные окружения исключены. Секреты заменены обозначениями `YOUR_...` / `REDACTED_...`; реальные значения задаются локально. Исходные алгоритмы при оформлении портфолио не перерабатывались.
+Сохранены авторские исходники, их имена и структура, зависимости и скриншоты интерфейса. Рабочие базы, наборы данных, модели и виртуальные окружения исключены. Секреты заменены обозначениями `YOUR_...` / `REDACTED_...`; реальные значения задаются локально. Исходные алгоритмы при оформлении портфолио не перерабатывались.
 
 Автор: [Евгений Толмачев](https://github.com/EvgenyET) · [Портфолио](https://evgeny.tech/)
